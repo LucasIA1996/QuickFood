@@ -1,0 +1,119 @@
+@import url('./global.css');
+
+/* ------------ HEADER ------------ */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    padding: 49px 0px;
+}
+
+.nav-header ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-header ul a{
+    text-decoration: none;
+    color: #000001;
+}
+
+.nav-header a span{
+    color: #00A000;
+
+}
+
+.btn-login{
+    color: #00A000;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #00A000;
+    background-color: transparent;
+    margin-top: auto;
+    padding: 10px 20px;
+}
+
+.btn-header{
+    display: flex;
+    font-family: 'Gilroy'sans-serif;
+    gap: 16px;
+}
+
+/* ------------ FIM HEADER ------------ */
+
+/* ------------ MAIN ------------ */
+
+main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 145px;
+}
+.content-lessons{
+    width: 687px;
+    margin-top: 16px;
+}
+
+h1{
+    font-size: 60px;
+    color: black
+    
+}
+
+.content-lessons h1 span{
+    color: #00A000;
+}
+
+.btn-primary{
+    background-color: #00A000;
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: auto;
+    border: 1px solid #00A000;
+    
+}
+
+.btn-explore{
+
+    color: #00A000;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #00A000;
+    background-color: transparent;
+    margin-top: auto;
+    padding: 10px 20px;
+}
+
+.content-lessons p{
+    align-items: center;
+    width: 503px; 
+    font-size: 18px;
+}
+
+.logo-clients{
+    
+    
+}
+
+.logo-carrinho-compra{
+
+}
+
+
+.logo-homem-comprando{
+
+}
+
+.logo-delivery{
+    
+}
+
