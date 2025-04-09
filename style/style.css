@@ -6,6 +6,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .logo{
@@ -16,6 +17,7 @@ header{
     display: flex;
     list-style: none;
     gap: 40px;
+    
 }
 
 .nav-header ul a{
@@ -99,21 +101,80 @@ h1{
     font-size: 18px;
 }
 
+/* ------------ FIM MAIN ------------ */
+
+/* ------------ OUR CLIENTS ------------ */
+
 .logo-clients{
-    
-    
-}
-
-.logo-carrinho-compra{
-
-}
-
-
-.logo-homem-comprando{
-
-}
-
-.logo-delivery{
+    text-align: center; 
+    background-color: #fafafa;
     
 }
 
+
+.choose-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo-carrinho-compra img{
+    width: 216px;
+}
+
+/* ------------ OUR CLIENTS ------------ */
+
+/* ------------ MANAGE SYSTEM ------------ */
+
+
+.special-dishes{
+    text-align: center;
+}
+
+.special-dishes h2{
+    font-size: 48px;
+}
+
+.special-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 16px;
+
+}
+
+.logo-salada{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-salada img{    
+    width: 250px;
+}
+
+.logo-salada h3{    
+    font-size: 28px;
+}
+
+.logo-salada p{
+    width: 279px;
+}
+
+.food2{
+    width: 185px !important;
+}
+
+.btn-buy{
+    width: 352px;
+    height: 45px;
+    background-color: #00A000;
+    border-radius: 6px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: auto;
+    border: 1px solid #00A000;
+}
